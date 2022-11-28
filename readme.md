@@ -1,13 +1,11 @@
-# Functions for Array methods!
+# Week 8 - Challenge
 
-Crea un modulo con funciones que repliquen, sin utilizar ninguno de los métodos ya existentes en el prototipo, los siguientes métodos de array: length, push, pop, unshift, shift, some, every, find, filter, map, findIndex, includes, indexOf, reduce, join
+## Series
 
-Cualquiera de tus funciones puede usar las que ya hayas creado.
-​
-![Sample](./javascript_methods_v2.png)
+Aquí tienes una aplicación maquetada con HTML y CSS. Se trata de una aplicación que gestiona un listado de series, separándolas entre series vistas y no vistas.
 
-### Testea TODOS los métodos.
+Esta aplicación se alimentará de un objeto JS que tienes en el archivo `series.js`.
 
-### Utiliza Github Actions Audit en el flujo de Github
+Tienes que mostrar un listado de series, separándolas entre vistas y no vistas. Cada serie tiene que mostrar toda la información que ves en la maqueta. Si la serie es no vista, sus estrellas tienen que estar a 0 y el usuario debería poder clicar para valorar la serie con las estrellas que crea necesario. Al clicar en una estrella, la aplicación debe modificar la valoración y la serie debe pasar de no vista a vista (no hay ninguna manera de pasar una serie de vista a no vista).
 
-### Configura SonarCloud asociado a tu repositorio, incluyendo el coverage de los tests
+Si el usuario hace click en el icono de la x, la serie se debe eliminar.
