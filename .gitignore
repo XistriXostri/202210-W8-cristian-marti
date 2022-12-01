@@ -1,3 +1,6 @@
+.vscode/
+dist/**/*.js
+
 .DS_Store
 # Logs
 logs
@@ -90,7 +93,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist/scripts
 
 # Gatsby files
 .cache/
