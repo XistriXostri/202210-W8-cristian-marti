@@ -1,0 +1,17 @@
+import { Component } from '../component/component.js';
+export class List extends Component {
+    constructor(selector, listType) {
+        super();
+        this.template = this.createTemplate(listType);
+        this.addRender(selector);
+    }
+    createTemplate(listType) {
+        return `
+          <section class="series-${listType.toLowerCase()}">
+            <h3 class="subsection-title">${listType} series</h3>
+            <p class="info"></p>
+            <ul class="series-list"></ul>
+          </section>
+    `;
+    }
+}
