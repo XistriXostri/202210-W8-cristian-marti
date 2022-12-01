@@ -10,7 +10,7 @@ export class Serie extends Component {
 
   createTemplate(serie: serieCollectionType) {
     return `
-          <li class="serie">
+          <li class="serie" id="serieID-${serie.id}">
                 <img
                   class="serie__poster"
                   src="${serie.poster}"
@@ -35,7 +35,7 @@ export class Serie extends Component {
                     <i class="icon--score fas fa-star" title="5/5"></i>
                   </li>
                 </ul>
-                <i class="fas fa-times-circle icon--delete"></i>
+                <i class="fas fa-times-circle icon--delete" id="deleteSerieID-${serie.id}"></i>
               </li>
     `;
   }
